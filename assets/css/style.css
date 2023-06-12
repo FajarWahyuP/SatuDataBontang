@@ -1363,3 +1363,22 @@ header.sticky{
   .feature-list { grid-template-columns: 1fr 1fr; }
 
 }
+/**
+ * responsive for large than 1600px-15000px screen
+ */
+@media (min-width : 1600px) and (max-width: 15000px){
+  .service { 
+    text-align: center;
+    margin-top: -200px;
+    padding: 200px 0px 0px 0px;
+  }
+  .section{
+    margin: -100px 0px 0px 0px;
+  }
+  .section .container{
+    margin-top: 200px;
+  }
+ .section .cliens{
+  margin-top: 40px;
+ }
+}
